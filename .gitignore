@@ -1,0 +1,11 @@
+socialsnapshot.config
+log.txt*
+log.txt.lck
+*.log*
+*.sqlite
+mvn.*
+/desktop.ini
+/target
+/bin
+/ssnoob.db
+/snapshots
