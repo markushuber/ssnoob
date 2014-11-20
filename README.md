@@ -1,6 +1,6 @@
 ### **SSNOOB** is a Java tool to create **[Social Snapshots](http://socialsnapshots.nysos.net/)** of Facebook accounts.
 
-## **[>> Download SSNOOB v0.5 (jar)](https://s3-eu-west-1.amazonaws.com/socialsnapshots/ssnoob-0.5.jar)**
+## **[>> Download SSNOOB v0.5 (jar)](https://dl.dropboxusercontent.com/u/571550/snoob/ssnoob-0.5.jar)**
 
 # Create a social snapshot of your Facebook account
 
