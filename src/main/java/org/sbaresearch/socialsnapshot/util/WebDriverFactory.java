@@ -43,7 +43,8 @@ public class WebDriverFactory {
 		capabilities = DesiredCapabilities.htmlUnit();
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, phantomjs.getAbsolutePath());
-
+		String[] cli = {"--ssl-protocol=tlsv1"}; 
+		capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, cli);
 		// capabilities.setCapability("phantomjs.page.settings.userAgent", BrowserFinder.getInstance().getUserAgent(browser));
 		capabilities.setBrowserName(BrowserFinder.getInstance().getUserAgent(browser));
 		return new PhantomJSDriver(capabilities);
