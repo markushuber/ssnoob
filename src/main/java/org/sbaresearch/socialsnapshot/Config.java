@@ -41,7 +41,7 @@ public final class Config {
 	private static final String DEFAULT_BROWSER_NAME = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36";
 	private static final Integer DEFAULT_DOWNLOAD_THREADS = 10;
 	private static final String DEFAULT_GRAPH_APP_ID = "122649464553932";
-	private static final String DEFAULT_GRAPH_APP_WEBSITE = "https://crunch0r.ifs.tuwien.ac.at/ssnoobapp/";
+	private static final String DEFAULT_GRAPH_APP_WEBSITE = "https://ssnoobapp.nysos.net/";
 	private static final Boolean DEFAULT_IMAGE_DOWNLOAD_ENABLED = true;
 	private static final Integer DEFAULT_IMAGE_PRIORITY = 5;
 	private static final Integer DEFAULT_MAX_SNAPSHOT_DEPTH = 5;
